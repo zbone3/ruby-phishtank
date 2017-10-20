@@ -13,7 +13,7 @@
 ## Installation
 
 ```shell
-$ gem install whois
+$ gem install ruby-phishtank
 ```
 
 ## Getting Started
@@ -41,9 +41,6 @@ parsed_data = scanner.scan('https://phishingsite.com/login.php')
 
 # Determine if phishing site
 parsed_data.is_valid_phishing?
-
-# Determine if site was verified by a phishtank community
-parsed_data.is_verified?
 
 # Determine if site was verified by a phishtank community
 parsed_data.is_verified?
